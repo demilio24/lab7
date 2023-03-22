@@ -1,8 +1,8 @@
 function init() {
-  const alertDiv = document.querySelector('#entrybutton');
-  const inputField = document.querySelector('#entryinput');
-  const submitButton = document.querySelector('#submit-btn');
-  const h2 = document.querySelector('#textoutput');
+  const alertDiv = document.getElementById('entrybutton');
+  const inputField = document.getElementById('entryinput');
+  const submitButton = document.getElementById('submit-btn');
+  const h2 = document.getElementById('textoutput');
 
   alertDiv.addEventListener('click', function() {
     const text = inputField.value;
